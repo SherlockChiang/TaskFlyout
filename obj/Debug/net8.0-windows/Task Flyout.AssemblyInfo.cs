@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Task Flyout")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3a84f7e72b69b0ba5bce465822344e578edd48a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+928851a0ee1304377cacb0fb3137c70812e26750")]
 [assembly: System.Reflection.AssemblyProductAttribute("Task Flyout")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Task Flyout")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
