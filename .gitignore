@@ -1,0 +1,9 @@
+# Visual Studio 缓存与临时文件
+.vs/
+[Bb]in/
+[Ob]j/
+*.user
+*.suo
+*.shellcounter
+
+credentials.json

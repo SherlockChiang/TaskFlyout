@@ -1,0 +1,44 @@
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Task Flyout.exe
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Task Flyout.deps.json
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Task Flyout.runtimeconfig.json
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Task Flyout.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Task Flyout.pdb
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Google.Apis.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Google.Apis.Auth.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Google.Apis.Calendar.v3.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Google.Apis.Core.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Google.Apis.Tasks.v1.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\H.GeneratedIcons.System.Drawing.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\H.NotifyIcon.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\H.NotifyIcon.Wpf.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\System.Drawing.Common.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\System.Private.Windows.Core.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\System.Private.Windows.GdiPlus.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Wpf.Ui.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\Wpf.Ui.Abstractions.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout.csproj.AssemblyReference.cache
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\FlyoutWindow.baml
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\FlyoutWindow.g.cs
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout_MarkupCompile.cache
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout_MarkupCompile.lref
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\App.baml
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout.g.resources
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout.AssemblyInfoInputs.cache
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout.AssemblyInfo.cs
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout.csproj.CoreCompileInputs.cache
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Fly.3452EDA1.Up2Date
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout.dll
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\refint\Task Flyout.dll
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout.pdb
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\Task Flyout.genruntimeconfig.cache
+C:\Users\vince\source\repos\Task Flyout\obj\Debug\net8.0-windows\ref\Task Flyout.dll
+C:\Users\vince\source\repos\Task Flyout\bin\Debug\net8.0-windows\credentials.json
