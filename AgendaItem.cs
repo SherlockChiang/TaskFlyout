@@ -1,11 +1,34 @@
-﻿namespace Task_Flyout // ⚠️ 请确保命名空间与你的项目一致
-{
-    public class AgendaItem
-    {
-        public string Title { get; set; }     // 标题（例如：开发团队周会）
-        public string Subtitle { get; set; }  // 副标题（例如时间，或者显示 "Google Tasks"）
+﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
-        public bool IsTask { get; set; }      // 是不是任务（决定是否显示打勾框）
-        public bool IsEvent { get; set; }     // 是不是日程（决定是否显示左侧颜色条）
+namespace Task_Flyout // ⚠️ 确保命名空间正确
+{
+    public class AgendaItem : INotifyPropertyChanged
+    {
+        public string Id { get; set; }
+        public string Title { get; set; }
+        public string Subtitle { get; set; }
+        public bool IsTask { get; set; }
+        public bool IsEvent { get; set; }
+
+        private bool _isCompleted;
+        public bool IsCompleted
+        {
+            get => _isCompleted;
+            set
+            {
+                if (_isCompleted != value)
+                {
+                    _isCompleted = value;
+                    OnPropertyChanged(); // 通知界面更新划线状态
+                }
+            }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 }

@@ -21,10 +21,16 @@ namespace Task_Flyout
                 // 1. 实例化我们的悬浮窗
                 _flyoutWindow = new FlyoutWindow();
 
+                var contextMenu = new System.Windows.Controls.ContextMenu();
+                var exitItem = new System.Windows.Controls.MenuItem { Header = "退出程序" };
+                exitItem.Click += (s, args) => Application.Current.Shutdown();
+                contextMenu.Items.Add(exitItem);
+
                 // 2. 初始化右下角托盘图标
                 _taskbarIcon = new TaskbarIcon
                 {
-                    ToolTipText = "我的全局日历与待办"
+                    ToolTipText = "我的全局日历与待办",
+                    ContextMenu = contextMenu // 👈 绑定右键菜单
                 };
 
                 // 【核心排错区】：单独处理图标加载
@@ -33,11 +39,7 @@ namespace Task_Flyout
                     _taskbarIcon.IconSource = new BitmapImage(new Uri("pack://application:,,,/icon.ico"));
                 }
                 catch (Exception)
-                {
-                    // 如果因为没有 icon.ico 或者没设置为“资源”导致报错，就会弹这个框，但程序不会死！
-                    MessageBox.Show("警告：找不到 icon.ico 图标，或者属性没有设置为 '资源(Resource)'！\n\n程序将继续运行，但右下角托盘可能会显示出一块透明/空白的区域，你依然可以尝试点击那个空白处。",
-                                    "图标缺失", MessageBoxButton.OK, MessageBoxImage.Warning);
-                }
+                {}
 
                 _taskbarIcon.ForceCreate();
                 // 3. 监听托盘左键点击事件，呼出悬浮窗
